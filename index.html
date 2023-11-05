@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="/stylesheets/style.css" type="text/css" charset="UTF-8" />
+		<link rel="stylesheet" href="/stylesheets/github-markdown.css" type="text/css" charset="UTF-8" />
+		<link rel="stylesheet" href="/stylesheets/prism.css" type="text/css" charset="UTF-8" />
+
+		<script src="/javascripts/prism.js" type="text/javascript" charset="UTF-8"></script>
+	</head>
+	<body class="markdown-body">
+		<div class="table-container">
+			<h2 id="中国学校化学教科书人教版-china_school_chemistry_pep_edition_pdf">中国学校化学教科书人教版 china_school_chemistry_pep_edition_pdf
+			</h2>
+			<ol>
+				<li>
+					<p>义务教育教科书·化学九年级上册 - Compulsory Education Textbook: Chemistry, Ninth Grade, First Semester<br>
+						<a href="01_义务教育教科书·化学九年级上册.pdf">PDF</a>
+					</p>
+				</li>
+				<li>
+					<p>义务教育教科书·化学九年级下册 - Compulsory Education Textbook: Chemistry, Ninth Grade, Second Semester<br><a
+							href="02_义务教育教科书·化学九年级下册.pdf">PDF</a>
+					</p>
+				</li>
+				<li>
+					<p>普通高中教科书·化学必修 第一册 - General High School Textbook: Chemistry Compulsory, Volume 1<br><a
+							href="03_普通高中教科书·化学必修_第一册.pdf">PDF</a>
+					</p>
+				</li>
+				<li>
+					<p>普通高中教科书·化学必修 第二册 - General High School Textbook: Chemistry Compulsory, Volume 2<br><a
+							href="04_普通高中教科书·化学必修_第二册.pdf">PDF</a>
+					</p>
+				</li>
+				<li>
+					<p>普通高中教科书·化学选择性必修1 化学反应原理 - General High School Textbook: Chemistry Elective Compulsory 1, Principles of
+						Chemical Reactions<br><a href="05_普通高中教科书·化学选择性必修1_化学反应原理.pdf">PDF</a>
+					</p>
+				</li>
+				<li>
+					<p>普通高中教科书·化学选择性必修2 物质结构与性质 - General High School Textbook: Chemistry Elective Compulsory 2, Structure and
+						Properties of Matter<br><a href="06_普通高中教科书·化学选择性必修2_物质结构与性质.pdf">PDF</a>
+					</p>
+				</li>
+				<li>
+					<p>普通高中教科书·化学选择性必修3 有机化学基础 - General High School Textbook: Chemistry Elective Compulsory 3, Fundamentals of
+						Organic Chemistry<br><a href="07_普通高中教科书·化学选择性必修3_有机化学基础.pdf">PDF</a>
+					</p>
+				</li>
+			</ol>
+
+			<script>
+				const arr = window.location.href.split("?")[1].split("&")
+				const lastArr = arr[arr.length - 1].split("=")
+				if (lastArr[0] === 'goto') {
+					setTimeout(() => {
+						const str = decodeURI(lastArr[1])
+						const element = document.getElementById(str);
+						element.scrollIntoView(true)
+					})
+				}
+			</script>
+		</div>
+		<script>
+			document.write('<script src="//' + (location.host || 'localhost').split(':')[0] +
+				':35929/livereload.js?snipver=1"></' + 'script>')
+		</script>
+		<script>
+			document.addEventListener('LiveReloadDisconnect', function() {
+				setTimeout(function() {
+					window.location.reload();
+				}, 500);
+			})
+		</script>
+	</body>
+</html>
